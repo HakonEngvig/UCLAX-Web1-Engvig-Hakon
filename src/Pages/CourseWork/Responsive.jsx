@@ -25,14 +25,6 @@ const Responsive = () => {
 export default Responsive;
 
 const ResponsiveStyled = styled.div`
-    @media ${breakpoints.isMediumAndUp} {
-        .boxes{
-            display: flex;
-            justify-content: center;
-        }
-
-    }
-
     .box{
         width: 100%;
         max-width: 200px;
@@ -52,6 +44,10 @@ const ResponsiveStyled = styled.div`
         border-radius: 15px 0px 15px 0px;
     }
     @media ${breakpoints.isMediumAndUp} {
+        .boxes{
+            display: flex;
+            justify-content: center;
+        }
         .box{
             outline: solid 2px #84d4d4;
         }
