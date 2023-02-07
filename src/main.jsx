@@ -4,7 +4,11 @@ import ReactDOM from 'react-dom/client';
 /* React Router Dom ---------------------------*/
 import { HashRouter } from 'react-router-dom';
 
-// Components
+/* Media Queries ---------------------------*/
+
+import {MediaQueryProvider} from '@/Common/useMediaQuery';
+
+// Components ---------------------------*/
 import App from './App';
 
 /* Gloabl styles ---------------------------*/
@@ -13,6 +17,8 @@ import './Common/css/global.scss';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <HashRouter>
-        <App />
+        <MediaQueryProvider>
+            <App />
+        </MediaQueryProvider>
     </HashRouter>
 );

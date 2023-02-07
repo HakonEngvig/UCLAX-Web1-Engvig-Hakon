@@ -22,7 +22,7 @@ const SunAndMoon = () => {
 
     //HTML
     return<SunAndMoonStyled>
-        <h2>Sun and Moon - Whatever</h2>
+        <h2>Be Happy! Like this Sun and Moon. <span className="dim">or else...</span></h2>
         <img src={ imgSrc } alt="" onMouseEnter={changeToMoon} onMouseLeave={changeToSun}/>
         {/* <img src={ moonSrc } alt="" /> */}
     </SunAndMoonStyled>
@@ -34,16 +34,27 @@ const SunAndMoonStyled = styled.div`
     text-align: center;
 
     h2{
-        background-color: teal;
+        background-color: #333;
         color: #fff;
         padding: 10px;
     }
+    .dim{
+        opacity: .1;
+    }
     img{
-        border: solid 20px teal;
-        background-color: #004f4f;
+        border: solid 20px #84d4d4;
+        background-color: #f26523;
         margin: 20px;
         padding: 20px;
+        -webkit-transition: all .15s ease-out;
+        -moz-transition: all .15s ease-out;
+        -o-transition: all .15s ease-out;
+        transition: all .15s ease-out;
 
+    }
+    img:hover{
+        border: solid 20px #84d4d4;
+        background-color: #333;
     }
 
 `;

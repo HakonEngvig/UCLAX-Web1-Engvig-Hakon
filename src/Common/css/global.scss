@@ -12,7 +12,7 @@ html, body {
 }
 body {
     overflow-y: scroll;
-    background-color: #014444;
+    background-color: #333;
     min-width: 300px;
 }
 
@@ -29,10 +29,11 @@ body.modal-open {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     margin: 0px 0px 15px;
-    color: #014444;
+    color: #333;
 }
 h1{
-    text-shadow: 0px 0px 3px #000;
+    // text-shadow: 0px 0px 3px #000;
+    color: #f26523;
 }
 p {
     margin: 0px 0px 15px;
@@ -94,10 +95,16 @@ nav.sublinks a {
     border-radius: 5px;
     padding: 10px 20px;
     color: white;
-    background-color: #027272;
+    background-color: #84d4d4;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
 }
 
 nav.sublinks a:hover,
 nav.sublinks a.active {
-    background-color: #014444;
+    background-color: #fff;
+    outline: solid 2px #84d4d4;
+    color: #84d4d4;
 }
