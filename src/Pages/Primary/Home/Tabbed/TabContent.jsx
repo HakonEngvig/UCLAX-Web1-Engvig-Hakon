@@ -42,14 +42,25 @@ const TabContentStyled = styled.div`
     .col2{
         h3{
             font-size: 30px;
+            color: #f26523;
+        }
+        h4{
+            font-size: 25px;
             color: #fff;
         }
 
         p{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 180%;
             color: #eee;
             margin-bottom: 20px;
+
+        }
+        li{
+            font-size: 16px;
+            line-height: 180%;
+            color: #eee;
+            margin-bottom: 0px;
 
         }
     }

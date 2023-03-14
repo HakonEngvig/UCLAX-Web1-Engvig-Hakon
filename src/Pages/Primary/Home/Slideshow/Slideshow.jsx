@@ -6,7 +6,6 @@ import Slidelist from './Slidelist';
 const Slideshow = () => {
     return (
         <SlideshowStyled className='Slideshow'>
-            Slideshow
             <Slidelist />
         </SlideshowStyled>
     );
