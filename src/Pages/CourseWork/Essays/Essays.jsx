@@ -50,21 +50,21 @@ const Essays = () => {
                 <p><strong>Svg:</strong> stands for scalable vector graphic and is described best as that. It’s a vector file instead and pixel based (or bitmap) thus it makes it “infinitely” scalable. Another cool thing about SVG files is that you can program the points and lines between them which means you can do some really awesome animation with them too.</p>
             </Essay>
             <Essay question='07: Define the Agile roles'>
-                <p><strong>Product Owner:</strong></p>
+                <p><strong>Product Owner:</strong>Responsible for the project's outcome, focuses more on product goal. Like a Captain.</p>
 
-                <p><strong>Product Manager:</strong></p>
+                <p><strong>Product Manager:</strong>Works a bit more directly with the client to fulfill the project needs, bringing the business closer to its goals. Like a navigator</p>
 
-                <p><strong>Business Analyst:</strong></p>
+                <p><strong>Business Analyst:</strong>work within an organization to evaluate current systems is actually doable with things in mind like budget and/or the businesses needs/goals. Helps to develop strategic plans and keep the production manager in check</p>
 
-                <p><strong>Scrum Master:</strong></p>
+                <p><strong>Scrum Master:</strong>Someone who leads a team using Agile project management through the course of a project. This is kind of like the field general, someone who is out in the filed doing what they can to make sure it gets done.</p>
 
-                <p><strong>UX designer:</strong></p>
+                <p><strong>UX designer:</strong>User experience designer focuses on the usability of the product form the users point of view. These are like your strategists.</p>
 
-                <p><strong>Developer/Engineer:</strong></p>
+                <p><strong>Developer/Engineer:</strong>The actual people who product the product. People who do the coding etc. These are like the boats on the ground, or soldiers in the trenches</p>
 
-                <p><strong>QA/SDET:</strong></p>
+                <p><strong>QA/SDET:</strong>Quality Assurance/Software Development Engineer in Test. This is the main source of quality control. Editing, refining, double-checking, etc.</p>
 
-                <p><strong>DevOps:</strong></p>
+                <p><strong>DevOps:</strong>They system set up to make sure to work with the code in development or make sure that code actually can work out</p>
             </Essay>
         </EssaysStyled>
     );
